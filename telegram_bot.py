@@ -8,6 +8,6 @@ import telegram
 bot = telegram.Bot(token = '')
 
 for i in bot.getUpdates():
-    print(i.message.text)
+    print(i.message)
 
 #bot.sendMessage(chat_id= , text="test")
